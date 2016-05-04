@@ -55,3 +55,13 @@
     }
 
 }
+
+@media(max-width: 800px){
+
+    .portfolio {
+        &__item {
+            width: 100%;
+        }
+    }
+
+}

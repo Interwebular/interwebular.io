@@ -8,6 +8,7 @@ require('../Styles/Buttons.scss');
 require('../Styles/Sections.scss');
 require('../Styles/Portfolio.scss');
 require('../Styles/Transition.scss');
+require('../Styles/Footer.scss');
 
 var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
 
@@ -38,10 +39,21 @@ var Template = React.createClass({
                     transitionLeaveTimeout={500}>
                     {React.cloneElement(this.props.children, {key: this.props.location.pathname})}
                 </ReactCSSTransitionGroup>
+
+                <footer className="footer">
+                    &copy; Interwebular 2016
+                    <a href="https://www.instagram.com/interwebular.io/" target="_blank">
+                        <i className="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/interwebular" target="_blank">
+                        <i className="fa fa-facebook"></i>
+                    </a>
+                </footer>
             </div>
         )
     }
 });
+
 
 
 module.exports = Template;

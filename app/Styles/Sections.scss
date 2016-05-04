@@ -26,3 +26,14 @@
 
 
 }
+
+@media(max-width: 800px) {
+    .section {
+        &__content {
+            &__inner {
+
+                font-size: 1.2em;
+            }
+        }
+    }
+}

@@ -51,7 +51,7 @@ var Contact = React.createClass({
         }
 
         if( !formData.message.length ) {
-            _errors.push('Please Enter The Project Details');
+            _errors.push('Please Enter a Message');
         }
 
         if(_errors.length) {
@@ -131,7 +131,7 @@ var Contact = React.createClass({
                             </div>
 
                             <div className="contact__form__group">
-                                <label className="contact__form__label" htmlFor="message">Project Details *</label>
+                                <label className="contact__form__label" htmlFor="message">Project Details / Message / Questions / Comments *</label>
                                 <textarea name="message" id="message" rows="10" ref="message" className="contact__form__input contact__form__input--small-text"></textarea>
                             </div>
 

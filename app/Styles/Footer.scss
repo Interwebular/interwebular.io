@@ -1,0 +1,18 @@
+@import 'Variables';
+@import 'Utils';
+
+.footer {
+    background: #222;
+    color: lighten(#222, 30%);
+    font-family: $font;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+
+    a {
+        display: inline-block;
+        color: #fff;
+        margin-left: 10px;
+    }
+}

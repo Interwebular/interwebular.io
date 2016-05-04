@@ -47,6 +47,7 @@ var projects = [
             'Hosting'
         ],
         img: 'https://d2ool86j2b0dy2.cloudfront.net/website/navislogo.png',
+        imgWidth: 300,
         background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/navisbg.jpg)',
         active: true,
         link: 'http://naviscorp.com'
@@ -61,6 +62,7 @@ var projects = [
             'Hosting'
         ],
         img: 'https://d2ool86j2b0dy2.cloudfront.net/website/axiomlogo.png',
+        imgWidth: 300,
         background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/axiombg.jpg)',
         active: true,
         link: 'http://axiomex.com'
@@ -69,6 +71,7 @@ var projects = [
         client: 'Tone Freak Audio',
         slug: 'tone-freak-audio',
         type: 'Branding Development',
+        imgWidth: 300,
         features: [
             'Branding And Identity',
             'Logo Design'
@@ -88,6 +91,7 @@ var projects = [
             'Logo Design'
         ],
         img: 'https://d2ool86j2b0dy2.cloudfront.net/website/oneeightylogo.png',
+        imgWidth: 300,
         background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/oneeightybg.jpg)',
         active: true,
         link: 'http://oneeightyentertainment.com/'

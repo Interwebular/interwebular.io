@@ -63,8 +63,8 @@ var Landing = React.createClass({
                 <section className="section section--padded">
                     <div className="section__content">
                         <div className="section__content__inner">
-                            <Link to="/contact" className="cta cta--inverted">
-                                Start A Project
+                            <Link to="/contact" className="cta cta--inverted cta--small">
+                                Contact Us
                             </Link>
                         </div>
                     </div>

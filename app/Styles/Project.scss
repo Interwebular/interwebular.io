@@ -15,7 +15,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 500px;
+            max-width: 500px;
             text-align: center;
 
             h1 {
@@ -102,5 +102,38 @@
             background: $color-standard;
         }
     }
+
+}
+
+
+@media(max-width: 800px) {
+
+    .project {
+
+        &__header {
+            &__content {
+                h1 {
+                    font-size: 1em;
+                }
+
+                span {
+                    padding: 4px;
+                    color: #fff;
+                    font-size: 0.6em;
+                    margin: 2px;
+                }
+            }
+        }
+
+        &__other_project_fade {
+            height: 45px;
+        }
+
+        &__other_project {
+            font-size: 0.7em;
+        }
+
+    }
+
 
 }

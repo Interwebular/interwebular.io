@@ -52,5 +52,22 @@
         left: 0;
         right: 0;
         bottom: 0;
-    }    
+    }
+}
+
+
+@media(max-width: 800px) {
+    .header {
+        padding: 100px 0;
+
+        &__content {
+
+            h1 {
+                font-size: 4em;
+            }
+            h2 {
+                font-size: 0.8em;
+            }
+        }
+    }
 }
