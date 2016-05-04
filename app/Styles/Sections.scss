@@ -1,0 +1,28 @@
+@import 'Variables';
+
+.section {
+
+    position: relative;
+
+    &--padded {
+        padding: 100px 0;
+    }
+
+
+    &__content {
+        max-width: 1400px;
+        margin: 0 auto;
+
+        &__inner {
+            text-align: center;
+            font-family: $font;
+            font-size: 3em;
+            text-transform: uppercase;
+            padding: 20px;
+            font-weight: bold;
+            color: #444;
+        }
+    }
+
+
+}

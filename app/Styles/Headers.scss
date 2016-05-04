@@ -1,0 +1,56 @@
+@import 'Variables';
+@import 'Utils';
+
+.header {
+    position: relative;
+    width: 100%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 230px 0;
+
+    &__content {
+
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px #000;
+        padding: 0 20px;
+
+        h1 {
+            font-family: $font-secondary;
+            font-weight: 200;
+            font-size: 8em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        h2 {
+            font-family: $font;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin: 0;
+            font-size: 1.3em;
+        }
+    }
+
+    &__spacer {
+        height: 1px;
+        width: 180px;
+        background: #fff;
+        margin: 40px auto;
+    }
+
+    &__cta {
+        text-align: center;
+    }
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }    
+}

@@ -1,0 +1,60 @@
+@import 'Variables';
+@import 'Utils';
+
+.nav-background,
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+}
+
+.nav-background {
+    z-index: 19;
+    background: #000;
+    opacity: 0.5;
+}
+
+.nav {
+    z-index: 20;
+
+    @extend .clearfix;
+
+    &__branding,
+    &__logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    &__branding {
+        float: left
+    }
+
+    &__logo {
+        display: block;
+    }
+
+    &__links {
+        float: right;
+    }
+
+    &__link {
+        display: inline-block;
+        padding: 0 20px;
+        height: 40px;
+        background: #666;
+        line-height: 40px;
+        font-family: $font;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 1px;
+        background: $color-standard;
+        &:hover {
+            background: $color-standard-darker;
+            text-decoration: none;
+        }
+    }
+}

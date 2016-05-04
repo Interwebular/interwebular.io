@@ -1,0 +1,106 @@
+@import 'Variables';
+@import 'Utils';
+
+.project {
+
+    &__header {
+        position: relative;
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &__content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            text-align: center;
+
+            h1 {
+                font-family: $font-secondary;
+                letter-spacing: 2px;
+                font-weight: 200;
+                font-size: 3em;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            span {
+                display: inline-block;
+                font-family: $font;
+                text-transform: uppercase;
+                padding: 8px;
+                background: $color-standard;
+                color: #fff;
+                font-size: 0.8em;
+                margin: 5px;
+            }
+        }
+
+        &__logo {
+            display: inline-block;
+        }
+
+        &__more {
+            font-family: $font;
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            font-weight: 200;
+            letter-spacing: 1px;
+        }
+
+        &__link {
+            margin-top: 30px;
+        }
+
+    }
+
+    &__other_project_fade {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: #000;
+        opacity: 0.4;
+        height: 55px;
+    }
+
+    &__other_project {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 50%;
+        padding: 10px 0;
+        text-align: center;
+        font-family: $font;
+        color: #fff;
+        text-decoration: none;
+        transition: all 200ms;
+
+        small {
+            display: block;
+        }
+
+        span {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        &--next {
+            right: 0;
+        }
+
+        &--prev {
+            left: 0;
+        }
+
+        &:hover {
+            background: $color-standard;
+        }
+    }
+
+}

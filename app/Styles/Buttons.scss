@@ -1,0 +1,39 @@
+@import 'Variables';
+
+.cta {
+    display: inline-block;
+    background: none;
+    border: 1px solid #fff;
+    padding: 12px 18px;
+    font-family: $font;
+    font-size: 1.2em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    transition: all 200ms;
+
+    &:hover {
+        background: #111;
+        cursor: pointer;
+    }
+
+    &--small {
+        padding: 8px 14px;
+        font-size: 0.8em;
+    }
+
+    &--small-forced {
+        font-size: 18px;
+    }
+
+    &--inverted {
+        border: 1px solid #000;
+        color: #000;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
