@@ -19,7 +19,7 @@ var Template = React.createClass({
                 <nav className="nav">
                     <div className="nav__branding">
                         <Link to="/">
-                            <img src="https://s3.amazonaws.com/interwebular-cdn/Branding/logo_square%40500.png" className="nav__logo" alt="Interwebular" />
+                            <img src="https://d2ool86j2b0dy2.cloudfront.net/Branding/logo_square%40500.png" className="nav__logo" alt="Interwebular" />
                         </Link>
                     </div>
 
@@ -31,7 +31,6 @@ var Template = React.createClass({
                 </nav>
 
                 {/*this.props.children*/}
-
 
                 <ReactCSSTransitionGroup
                     transitionName="appear"

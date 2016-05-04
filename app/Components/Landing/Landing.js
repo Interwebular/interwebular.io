@@ -19,7 +19,7 @@ var Landing = React.createClass({
     render: function() {
         return (
             <div>
-                <header className="header header--fullscreen" style={{backgroundImage: 'url(https://s3.amazonaws.com/interwebular-cdn/Branding/bg.jpg)'}}>
+                <header className="header header--fullscreen" style={{backgroundImage: 'url(https://d2ool86j2b0dy2.cloudfront.net/Branding/bg.jpg)'}}>
                     <div className="header__content">
                         <h1>Interwebular</h1>
                         <h2>Crafting Kick-Ass Websites Since 2013</h2>

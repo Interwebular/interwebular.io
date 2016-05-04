@@ -11,9 +11,9 @@ var projects = [
             'On-going Maintenance',
             'On-going Feature Development'
         ],
-        img: 'https://s3.amazonaws.com/interwebular-cdn/website/vitallogo.png',
+        img: 'https://d2ool86j2b0dy2.cloudfront.net/website/vitallogo.png',
         imgWidth: 150,
-        background: 'url(https://s3.amazonaws.com/interwebular-cdn/website/vitalbg.jpg)',
+        background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/vitalbg.jpg)',
         active: true,
         link: 'https://vitalsupplyco.com'
     },
@@ -30,8 +30,8 @@ var projects = [
             'PPC Campaign Management',
             'SEO Strategy'
         ],
-        img: 'https://s3.amazonaws.com/interwebular-cdn/website/cocktailslogo.png',
-        background: 'url(https://s3.amazonaws.com/interwebular-cdn/website/cocktailsbg.jpg)',
+        img: 'https://d2ool86j2b0dy2.cloudfront.net/website/cocktailslogo.png',
+        background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/cocktailsbg.jpg)',
         active: true,
         link: 'https://cocktailsandcanapes.ca'
     },
@@ -46,8 +46,8 @@ var projects = [
             'Web Development',
             'Hosting'
         ],
-        img: 'https://s3.amazonaws.com/interwebular-cdn/website/navislogo.png',
-        background: 'url(https://s3.amazonaws.com/interwebular-cdn/website/navisbg.jpg)',
+        img: 'https://d2ool86j2b0dy2.cloudfront.net/website/navislogo.png',
+        background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/navisbg.jpg)',
         active: true,
         link: 'http://naviscorp.com'
     },
@@ -60,8 +60,8 @@ var projects = [
             'Web Development',
             'Hosting'
         ],
-        img: 'https://s3.amazonaws.com/interwebular-cdn/website/axiomlogo.png',
-        background: 'url(https://s3.amazonaws.com/interwebular-cdn/website/axiombg.jpg)',
+        img: 'https://d2ool86j2b0dy2.cloudfront.net/website/axiomlogo.png',
+        background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/axiombg.jpg)',
         active: true,
         link: 'http://axiomex.com'
     },
@@ -73,8 +73,8 @@ var projects = [
             'Branding And Identity',
             'Logo Design'
         ],
-        img: 'https://s3.amazonaws.com/interwebular-cdn/website/tonefreaklogo_opt.png',
-        background: 'url(https://s3.amazonaws.com/interwebular-cdn/website/tonefreak.jpg)',
+        img: 'https://d2ool86j2b0dy2.cloudfront.net/website/tonefreaklogo_opt.png',
+        background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/tonefreak.jpg)',
         active: true,
         link: 'http://tonefreakaudio.com'
     },
@@ -87,8 +87,8 @@ var projects = [
             'Branding And Identity',
             'Logo Design'
         ],
-        img: 'https://s3.amazonaws.com/interwebular-cdn/website/oneeightylogo.png',
-        background: 'url(https://s3.amazonaws.com/interwebular-cdn/website/oneeightybg.jpg)',
+        img: 'https://d2ool86j2b0dy2.cloudfront.net/website/oneeightylogo.png',
+        background: 'url(https://d2ool86j2b0dy2.cloudfront.net/website/oneeightybg.jpg)',
         active: true,
         link: 'http://oneeightyentertainment.com/'
     }
