@@ -56,5 +56,13 @@
             background: $color-standard-darker;
             text-decoration: none;
         }
+
+        &--bare {
+            background: none;
+            &:hover {
+                background: #000;
+                text-decoration: none;
+            }
+        }
     }
 }

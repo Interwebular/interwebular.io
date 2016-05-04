@@ -1,8 +1,9 @@
 var React = require('react');
 var Link = require('react-router').Link;
-var projects = require('../../Data/projects');
 var ScrollLink = require('react-scroll').Link;
 var scroll  = require('react-scroll').animateScroll;
+var ProjectsList = require('../Projects/ProjectsList');
+
 
 var Landing = React.createClass({
 
@@ -10,10 +11,6 @@ var Landing = React.createClass({
         scroll.scrollToTop({
             duration: 0
         });
-    },
-
-    _getProjects: function() {
-        return projects;
     },
 
     render: function() {
@@ -41,23 +38,7 @@ var Landing = React.createClass({
                 </section>
 
                 <section className="section">
-                    <div className="portfolio" id="projects">
-                        {this._getProjects().map(function(item, index){
-                            return (
-                                <div key={index} className="portfolio__item" style={{ backgroundImage: item.background }}>
-                                    <span className="portfolio__project-type">{ item.type }</span>
-                                    <div className="portfolio__project-content">
-                                        <img src={item.img} />
-                                    </div>
-                                    <div className="portfolio__link" style={{ display: item.active ? 'block' : 'none' }}>
-                                        <Link to={ '/project/' + item.slug } className="cta cta--small">
-                                            View {item.client}
-                                        </Link>
-                                    </div>
-                                </div>
-                            )
-                        }.bind(this))}
-                    </div>
+                    <ProjectsList />
                 </section>
 
                 <section className="section section--padded">

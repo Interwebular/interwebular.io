@@ -25,13 +25,14 @@ var Template = React.createClass({
                     </div>
 
                     <div className="nav__links">
+                        <Link to="/projects" className="nav__link nav__link--bare">
+                            Projects
+                        </Link>
                         <Link to="/contact" className="nav__link">
-                            Start A Project
+                            Get Started
                         </Link>
                     </div>
                 </nav>
-
-                {/*this.props.children*/}
 
                 <ReactCSSTransitionGroup
                     transitionName="appear"
