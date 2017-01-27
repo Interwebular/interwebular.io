@@ -9,6 +9,7 @@ var Landing = require('../Components/Landing/Landing');
 var FourOhFour = require('../Components/Errors/FourOhFour');
 var Project = require('../Components/Projects/Project');
 var Projects = require('../Components/Projects/Projects');
+var Services = require('../Components/Services/Services');
 var Contact = require('../Components/Contact/Contact');
 
 var Routes = (
@@ -17,6 +18,7 @@ var Routes = (
             <IndexRoute component={Landing} />
             <Route path="project/:slug" component={Project} />
             <Route path="projects" component={Projects} />
+            <Route path="services" component={Services} />
             <Route path="contact" component={Contact} />
             <Route path="*" component={FourOhFour} />
         </Route>

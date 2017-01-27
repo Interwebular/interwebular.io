@@ -10,6 +10,7 @@ var FourOhFour = require('../Components/Errors/FourOhFour');
 var Project = require('../Components/Projects/Project');
 var Contact = require('../Components/Contact/Contact');
 var Projects = require('../Components/Projects/Projects');
+var Services = require('../Components/Services/Services');
 
 var ga = require('react-ga');
 ga.initialize('UA-48934958-1');
@@ -23,6 +24,7 @@ var routes = (
             <IndexRoute component={Landing} />
             <Route path="project/:slug" component={Project} />
             <Route path="projects" component={Projects} />
+            <Route path="services" component={Services} />
             <Route path="contact" component={Contact} />
             <Route path="*" component={FourOhFour} />
         </Route>
